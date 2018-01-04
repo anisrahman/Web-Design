@@ -1,0 +1,178 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color:#222;
+}
+
+
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.header-top-area{
+    background: #360c0c;
+}
+.header-left ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+}
+.header-left ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 15px;
+   
+}
+.header-right{
+    float: right;
+    margin-right: 20%;
+}
+
+.header-right .search-trigger {
+    color:#fff;
+    padding: 15px;
+}
+.header-right .fa{
+    color:#fff;
+    padding: 15px;
+}
+.header-top-area .header-left a.menu-trigger{
+    display: block;
+    float: left;
+}
+.header-top-area .header-left a.menu-trigger span{
+    width:30px;
+    height: 3px;
+    background: #fff;
+    margin-bottom: 5px;
+    display: block;
+}
+.header-top-area .header-left a.menu-trigger span:nth-child(2){
+    width:18px;
+}
+.header-top-area .header-left a.menu-trigger span:nth-child(3){
+    width:22px;
+}
+
+.single-slide-item{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    position: relative;
+    height: 700px;  
+}
+
+.single-slide-item img{
+    max-height: 100%;
+    max-width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+
+.slide-text-tablecell {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 60px;
+    transform:translate(-50%, -50%);
+}
+
+.off-canvas-menu{
+    position: absolute;
+    z-index: 99;
+    width:15%;
+    height: 70%;
+    background: #463939;
+    display: none;
+}
+.off-canvas-menu ul{
+    padding-top: 65px;
+}
+.off-canvas-menu li{
+    list-style: none;
+    display: block;
+    
+}
+.off-canvas-menu li a{
+    color:#f8f8f8;
+    padding: 15px 0;
+    display: block;
+    border-bottom: 1px solid #8d8b8b;
+    transition: .3s;
+}
+.off-canvas-menu li a:hover{
+    background: red;
+}
+
+.off-canvas-menu .menu-close{
+    top: 15px;
+    right: 8%;
+    color: #fff;
+    position: absolute;
+    padding: 15px;
+}
+
+.off-canvas-overly{
+    width:100%;
+    height: 40%;
+    background: red;
+    position: fixed;
+     opacity: .5; z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
